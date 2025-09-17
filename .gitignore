@@ -1,0 +1,69 @@
+# Airflow .gitignore
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow specific
+plugins/
+data/
+temp/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Database files (if any)
+*.db
+*.sqlite
+
+# Temporary directories
+borrar/  # Si es temporal
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Compression files
+*.zip
+*.tar
+*.gz
